@@ -1,0 +1,71 @@
+﻿@model SaveTimeCore.Models.ViewModels.CompanyViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="col-lg-7">
+        <h2>Companies</h2>
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreateCompany.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreateCompany.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreateCompany.EMail)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model.Companies)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EMail)
+                    </td>
+                    <td>
+                        <a data-id="@item.Id" class="company-edit">Edit</a> |
+                        <a data-id="@item.Id" class="company-delete">Delete</a> |
+                        <a data-id="@item.Id" class="company-details">Details</a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    @*<div class="col-lg-5">
+        @Html.Partial("_CreateCompany")
+    </div>*@
+</div>
+<div class="row" id="companyDetailsDiv">
+</div>
+<div class="row" id="companyEditDiv">
+</div>
+<div class="row" id="companyDeleteDiv">
+</div>
+@section scripts{
+    <script>
+    $(".company-details").on("click", function () {
+        $("#companyDetailsDiv").load("@Url.Action("Details", "Company")/" + $(this).attr("data-id"));
+    });
+    $(".company-edit").on("click", function () {
+      $("#companyEditDiv").load("@Url.Action("Edit", "Company")/" + $(this).attr("data-id"));
+    });
+    $(".company-delete").on("click", function () {
+        $("#companyDeleteDiv").load("@Url.Action("Delete", "Company")/" + $(this).attr("data-id"));
+    });
+
+    </script>
+}

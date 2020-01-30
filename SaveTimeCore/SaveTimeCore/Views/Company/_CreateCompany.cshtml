@@ -1,0 +1,39 @@
+﻿@model SaveTimeCore.Models.ViewModels.CompanyViewModel
+
+<h4>Company Company</h4>
+
+<form id="formid">
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreateCompany.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.CreateCompany.Name, new { htmlAttributes = new { @id = "txt-name" } })*@
+                <input type="text" name="Name" value="" />
+                @Html.ValidationMessageFor(model => model.CreateCompany.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreateCompany.City, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.CreateCompany.City, new { htmlAttributes = new { @id = "txt-city" } })*@
+                <input type="text" name="City" value="" />
+                @Html.ValidationMessageFor(model => model.CreateCompany.City, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" value="Create" id="btn-submit" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@*@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}*@

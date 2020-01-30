@@ -1,0 +1,25 @@
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.deps.json
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.runtimeconfig.json
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.runtimeconfig.dev.json
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.dll
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.pdb
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.csprojResolveAssemblyReference.cache
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.csproj.CoreCompileInputs.cache
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.AssemblyInfoInputs.cache
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.AssemblyInfo.cs
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.dll
+D:\Мои документы\Серик\AcademyStep\VisualStudioProjects\ASPNET2\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.pdb
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.AssemblyInfoInputs.cache
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.AssemblyInfo.cs
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.deps.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.runtimeconfig.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.runtimeconfig.dev.json
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.dll
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\bin\Debug\netcoreapp2.0\SaveTimeCore.pdb
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.dll
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.pdb
+C:\Users\РахимовС\source\repos\SaveTimeCore\SaveTimeCore\SaveTimeCore\obj\Debug\netcoreapp2.0\SaveTimeCore.csprojAssemblyReference.cache

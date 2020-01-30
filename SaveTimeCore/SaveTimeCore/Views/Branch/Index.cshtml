@@ -1,0 +1,75 @@
+﻿@model IList<SaveTimeCore.Models.ViewModels.BranchViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Branches</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Adress
+        </th>
+        <th>
+            Phone
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            StartWork
+        </th>
+        <th>
+            EndWork
+        </th>
+        <th>
+            StepWork
+        </th>
+        <th>
+            Company
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartWork)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndWork)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StepWork)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+    }
+
+</table>
